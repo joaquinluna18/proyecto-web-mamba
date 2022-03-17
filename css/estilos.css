@@ -53,6 +53,11 @@ body{
     color: white;
     text-decoration: none;
     }  
+    .nav_enlace:hover{
+        text-decoration: underline;
+        color: white;
+    }
+
 
     ul{list-style-type: none;  }
 
