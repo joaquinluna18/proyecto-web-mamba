@@ -85,7 +85,7 @@ body{
     color: white;
     font-style: normal; /*de costado*/
     font-weight: bold; /*negrita*/
-    font-size: 80px ; /* tamño*/
+    font-size: 50px ; /* tamño*/
     text-align: center; /* alineacion(iz, centro, der */
     line-height: 2.00 ; /* interlineado*/
     background-color: black ;
@@ -115,7 +115,7 @@ body{
     .titulo{
         color: black;
         font-style: normal;
-        font-size: 50px;
+        font-size: 35px;
         text-align: left;
         line-height: 2.00;
         background-color: rgb(192, 180, 180);
@@ -253,14 +253,13 @@ body{
     }
 
     .titulo__modelos{
-    color: white;
-    font-style: normal; /*de costado*/
-    font-weight: bold; /*negrita*/
-    font-size: 50px; /* tamaño*/
-    text-align: center; /* alineacion(iz, centro, der */
-    line-height: 2.00 ; /* interlineado*/
-    background-color: black ;
-    width: 100%;
+        color: white;
+        font-style: normal; /*de costado*/
+        font-weight: bold; /*negrita*/
+        font-size: 50px ; /* tamño*/
+        text-align: center; /* alineacion(iz, centro, der */
+        line-height: 2.00 ; /* interlineado*/
+        background-color: black ;;
     }
     
    
@@ -375,17 +374,7 @@ body{
         text-decoration: underline;
     }
 
-    .div__strong{
-        color:white;
-        font-style: normal;
-        font-size: 55px;
-        text-align: center;
-        line-height: 2.00;
-        background-color: black;
-        margin: 10px;
-        padding: 10px
 
-    }tra
 
 
 /*contacto*/
