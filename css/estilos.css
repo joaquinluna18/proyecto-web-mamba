@@ -436,6 +436,7 @@ body{
 
 @media screen and (max-width: 1024px) {
 body{
+    
         background-color: white;
     }
 .contenedor_main{
@@ -462,7 +463,8 @@ body{
 }
 .caja{
     background-image: none;
-    background-color: white;
+    background-color: grey;
+    color: black;
     
 }
 .foto__modelos{
@@ -505,6 +507,7 @@ body{
 /*movil*/
 @media screen and (max-width: 600px) {
     body{
+      
             background-color:white;
         }
     .contenedor_main{
@@ -532,7 +535,8 @@ body{
     }
     .caja{
         background-image: none;
-        background-color: white;
+        background-color: grey;
+        color: black;
         
     }
 
