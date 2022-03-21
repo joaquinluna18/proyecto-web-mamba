@@ -267,16 +267,19 @@ body{
   /*grid*/
     .grid{
         display: grid;
-        grid-template-columns: 550px 550px 550px;
-        grid-template-rows: 650px 650px 650px;
-
-        justify-items: stretch;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 350px  350px 350px;
+        grid-template-rows: 700px 700px ;
+        justify-items: stretch; 
         align-items: stretch;
 
         grid-column-gap: 10px;
         grid-row-gap: 20px;
 
         padding: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
       
 
 
@@ -475,10 +478,20 @@ body{
     width: 100%;
 }
 
-      
-    
+.grid{
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 350px ;
+    grid-template-rows: 700px 700px 700px 700px 700px 700px;
+    justify-items: stretch; 
+    align-items: stretch;
 
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
 
+    padding: 28px; }
  
 
 
@@ -534,6 +547,20 @@ body{
     .tarjeta{
         width: 100%;
     }
+    .grid{
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 350px ;
+        grid-template-rows: 700px 700px 700px 700px 700px 700px;
+        justify-items: stretch; 
+        align-items: stretch;
+    
+        grid-column-gap: 10px;
+        grid-row-gap: 20px;
+    
+        padding: 28px; }
     
     
     
