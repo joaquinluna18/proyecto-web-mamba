@@ -94,15 +94,15 @@ body{
    
     .caja{
     
-        background-image: url(https://static.turbosquid.com/Preview/2019/12/16__12_18_03/BlackMamba_09.png5750CF69-1413-4158-B121-1E70A22AB90EDefaultHQ.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
         background-origin: border-box;
+        background-color: black;
         
 
-        color: black;
-        font-size: 35px;
+        color: white;
+        font-size: 20px;
         line-height: 1.50;
         margin: 10px;
         padding: 10px;
