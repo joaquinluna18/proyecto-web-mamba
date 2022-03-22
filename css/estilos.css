@@ -150,7 +150,7 @@ body{
      .div_list{
         display: flex;
         gap: 8rem;
-        font-size: 20px;
+        font-size: 40px;
 
     }
 
@@ -457,6 +457,7 @@ body{
 .div_list{
     flex-wrap: wrap;
     padding: 10px;
+    font-size: 20px;
 }
 .footer_marca{
     width: 100%;
@@ -529,6 +530,7 @@ body{
     .div_list{
         flex-wrap: wrap;
         padding: 10px;
+        font-size: 15px;
     }
     .footer_marca{
         width: 100%;
