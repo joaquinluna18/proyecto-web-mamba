@@ -15,6 +15,7 @@ body{
 /*header*/
   .header{
       height: auto;
+      background-color: red;
   }
 
   .header_contendedor{
