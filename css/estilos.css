@@ -114,7 +114,6 @@ body{
 
 
     .titulo{
-        @extend
     font-size: 25px;
     text-align: left;
     
