@@ -114,15 +114,13 @@ body{
 
 
     .titulo{
-        color: black;
-        font-style: normal;
-        font-size: 25px;
-        text-align: left;
-        line-height: 2.00;
-        background-color: rgb(192, 180, 180);
-        margin: 10px;
-        padding: 10px;
-        text-decoration: underline;
+        @extend
+    font-size: 25px;
+    text-align: left;
+    
+    margin: 10px;
+    padding: 10px;
+    text-decoration: underline;
         
         
      } 
@@ -576,3 +574,43 @@ body{
     
     
     }
+    /* MAP GET*/
+    
+    h1 {
+        font-weight: 700;
+      }
+      
+      h2 {
+        font-weight: 500;
+      }
+      
+      h3, h4 {
+        font-weight: 400;
+      }
+      
+      p {
+        font-weight: 100;}
+
+        /*extend*/
+        .titulo-destacado, .titulo {
+            color: white;
+            font-style: normal;
+            /*de costado*/
+            font-weight: bold;
+            /*negrita*/
+            font-size: 40px;
+            /* tamño*/
+            text-align: center;
+            /* alineacion(iz, centro, der */
+            line-height: 2;
+            /* interlineado*/
+            background-color: black;
+          }
+          
+          .titulo {
+            font-size: 25px;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: underline;
+          }
