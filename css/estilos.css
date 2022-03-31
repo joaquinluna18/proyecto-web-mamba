@@ -10,7 +10,6 @@ body{
     
     
 }
-
  
 /*header*/
   .header{
@@ -78,21 +77,30 @@ body{
         
         
     }
+        /*extend*/
+        .titulo-destacado, .titulo {
+            color: white;
+            font-style: normal;
+            /*de costado*/
+            font-weight: bold;
+            /*negrita*/
+            font-size: 40px;
+            /* tamño*/
+            text-align: center;
+            /* alineacion(iz, centro, der */
+            line-height: 2;
+            /* interlineado*/
+            background-color: black;
+          }
+          
+          .titulo {
+            font-size: 25px;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: underline;
+          }
 
-    
-
-
-   .titulo-destacado{
-    color: white;
-    font-style: normal; /*de costado*/
-    font-weight: bold; /*negrita*/
-    font-size: 40px ; /* tamño*/
-    text-align: center; /* alineacion(iz, centro, der */
-    line-height: 2.00 ; /* interlineado*/
-    background-color: black ;
-
-    }
-   
     .caja{
     
         background-repeat: no-repeat;
@@ -113,17 +121,7 @@ body{
     }
 
 
-    .titulo{
-    font-size: 25px;
-    text-align: left;
-    
-    margin: 10px;
-    padding: 10px;
-    text-decoration: underline;
-        
-        
-     } 
-
+  
 
 
 /*footer*/
@@ -172,7 +170,7 @@ body{
         padding: 10px;
         margin: 10px;
         width: 50px;
-        height: 50 px;
+        height: 50px;
         }
 
 
@@ -590,26 +588,5 @@ body{
       p {
         font-weight: 100;}
 
-        /*extend*/
-        .titulo-destacado, .titulo {
-            color: white;
-            font-style: normal;
-            /*de costado*/
-            font-weight: bold;
-            /*negrita*/
-            font-size: 40px;
-            /* tamño*/
-            text-align: center;
-            /* alineacion(iz, centro, der */
-            line-height: 2;
-            /* interlineado*/
-            background-color: black;
-          }
-          
-          .titulo {
-            font-size: 25px;
-            text-align: left;
-            margin: 10px;
-            padding: 10px;
-            text-decoration: underline;
-          }
+
+        
