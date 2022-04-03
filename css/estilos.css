@@ -291,6 +291,8 @@ body{
         line-height: 2.00;
         background-color: rgb(192, 180, 180);
         margin: 10px;
+        margin-left: 150px;
+        margin-right: 150px;
         padding: 10px;
         text-decoration: underline;
         
@@ -305,6 +307,8 @@ body{
         line-height: 2.00;
         background-color: rgb(192, 180, 180);
         margin: 40px;
+        margin-left: 200px;
+        margin-right: 200px;
         padding: 10px;
        
         
