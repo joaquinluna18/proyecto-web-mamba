@@ -571,6 +571,36 @@ body{
         grid-row-gap: 20px;
     
         padding: 28px; }
+
+        .article__titulo{
+            color: black;
+            font-style: normal;
+            font-size: 20px;
+            text-align: left;
+            line-height: 2.00;
+            background-color: rgb(192, 180, 180);
+            margin: 10px;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 10px;
+            text-decoration: underline;
+        }
+
+        .article__texto{
+            color: black;
+            font-style: normal;
+            font-size: 15px;
+            text-align: left;
+            line-height: 2.00;
+            background-color: rgb(192, 180, 180);
+            margin: 40px;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 10px;
+           
+            
+    
+        }
     
     
     
