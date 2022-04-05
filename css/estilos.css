@@ -265,7 +265,7 @@ body{
         display: grid;
         width: auto;
         height: auto;
-        grid-template-columns: 350px  350px 350px;
+        grid-template-columns: 420px  420px 420px;
         grid-template-rows: 700px 700px ;
         justify-items: stretch; 
         align-items: stretch;
@@ -274,8 +274,9 @@ body{
         grid-row-gap: 20px;
 
         padding: 50px;
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 100px;
+        padding-right: 180px;
+        
       
 
 
@@ -602,10 +603,29 @@ body{
             
     
         }
-    
-    
+
     
     }
+/* computador 4k*/
+    @media screen and (min-width: 2560px) {
+        .grid{
+            display: grid;
+            flex-direction: column;
+            width: auto;
+            height: auto;
+            grid-template-columns: 750px 750px 750px;
+            grid-template-rows: 700px 700px;
+            justify-items: stretch; 
+            align-items: stretch;
+        
+            grid-column-gap: 10px;
+            grid-row-gap: 20px;
+        
+            padding: 28px;
+            margin-left: 250px; }
+
+    }
+
     /* MAP GET*/
     
     h1 {
