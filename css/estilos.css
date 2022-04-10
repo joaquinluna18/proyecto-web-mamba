@@ -518,6 +518,24 @@ body{
         .header_contendedor{
             flex-direction: column;
         }
+        .header_marca{
+            padding: 0px;
+	        margin: 0px;
+	        width: 54px;
+	        height: 90px;
+        }
+        .navbar{
+            position: relative;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-end;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            align-content: center;
+        }
+
+
         .nav_lista{
             flex-wrap: wrap;
             width: 100%;
