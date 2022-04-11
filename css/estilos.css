@@ -440,6 +440,17 @@ body{
     
         background-color: white;
     }
+    .navbar{
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        align-content: center;
+    }
+
 .contenedor_main{
     flex-direction: column;
 }   
