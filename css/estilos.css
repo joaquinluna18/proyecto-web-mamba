@@ -36,6 +36,15 @@ body{
     height: 80px;
     position: center;
    }
+   .navbar-nav{
+    display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+    gap: 7.5rem;
+
+   }
    
 
   .nav_lista{
@@ -451,6 +460,15 @@ body{
         align-content: center;
         gap: 1rem;
     }
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        gap: 2rem;
+    
+       }
 
 .contenedor_main{
     flex-direction: column;
@@ -547,7 +565,15 @@ body{
             align-content: center;
         }
        
-
+        .navbar-nav{
+            display: flex;
+            flex-direction: column;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            gap: 1rem;
+            
+           }
 
         .nav_lista{
             flex-wrap: wrap;
