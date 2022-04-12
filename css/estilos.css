@@ -295,7 +295,7 @@ body{
         margin-left: 150px;
         margin-right: 150px;
         padding: 10px;
-        text-decoration: underline;
+
         
 
     }
@@ -449,6 +449,7 @@ body{
         padding-top: 1rem;
         padding-bottom: 1rem;
         align-content: center;
+        gap: 1rem;
     }
 
 .contenedor_main{
@@ -545,6 +546,7 @@ body{
             padding-bottom: 1rem;
             align-content: center;
         }
+       
 
 
         .nav_lista{
@@ -601,7 +603,7 @@ body{
         grid-column-gap: 10px;
         grid-row-gap: 20px;
     
-        padding: 28px; }
+        padding: 20px; }
 
         .article__titulo{
             color: black;
