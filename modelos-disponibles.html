@@ -23,47 +23,71 @@
 </head>
 <body>
   <header class="header" > <!--header del sitio con bootstrap-->
-  </nav>
-   <!--menu navegacion(enlaces)-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgba(var(--bs-),var(--bs-bg-opacity))!important" >
-
-      <div class="header_marca"> <!-- logo -->
-          <img src="imagenes/mamba/LOGO MAMBARecurso 29@3x.png" alt="logotipo--" width="90px" height="90px" style="margin-left: 6rem;">
-       </div>
-
-      <div class="container-fluid" style="margin-left: 250px;">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" >
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html" style="color: rgb(238, 236, 236);">Home</a>
-                </li>
+   
+    <div>
+      
+      <nav class="navbar navbar-light bg-light fixed-top" style="margin: 0; padding: 0;">
+        <div class="container-fluid" style="background-color: red;">
+    
+          <div class="header_marca"> <!-- logo -->
+            <img src="imagenes/mamba/LOGO MAMBARecurso 29@3x.png" alt="logotipo--" width="90px" height="90px" style="padding: 10%"  >
+         </div>
+         
+    <div class="header-nav" >
+      <a class="navbar-brand" href="index.html" style="color: rgb(238, 236, 236); font-size: 18px; padding: 2rem;">Home</a>
+      <a class="navbar-brand" href="modelos-disponibles.html" style="color: rgb(238, 236, 236); font-size: 18px; padding: 2rem;">Modelos</a>
+      <a class="navbar-brand" href="sobre-nosotros.html" style="color: rgb(238, 236, 236); font-size: 18px; padding: 2rem;">Nosotros</a>
+      <a class="navbar-brand" href="info-permutas.html" style="color: rgb(238, 236, 236); font-size: 18px; padding: 2rem;">Permutas</a> 
+      <a class="navbar-brand" href="contacto.html" style="color: rgb(238, 236, 236); font-size: 18px; padding: 2rem;">Contacto</a>
+    </div>
+    <div class="header-movil">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BIENVENIDOS A MAMBA</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: red;">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link" href="modelos-disponibles.html" style="color: white;">Modelos</a>
+              <a class="nav-link active" aria-current="page" href="index.html" style="color: rgb(238, 236, 236); font-size: 18px;">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="info-permutas.html" style="color: white;">Permutas</a>
+              <a class="nav-link" href="modelos-disponibles.html" style="color: white;font-size: 18px;">Modelos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sobre-nosotros.html" style="color: white;">Nosotros</a>
+              <a class="nav-link" href="info-permutas.html" style="color: white;font-size: 18px;">Permutas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto.html" style="color: white;">Contacto</a>
+              <a class="nav-link" href="sobre-nosotros.html" style="color: white; font-size: 18px;">Nosotros</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="contacto.html" style="color: white;font-size: 18px;">Contacto</a>
+            </li>
+            
+           
           </ul>
+          
         </div>
       </div>
-    </nav>
-  
-
-</header>
-
+    </div>
+          
+        </div>
+      </nav>
+    </div>
+    
+    
+      
+    </div>
+              
+    
+        </header>
     <main>
         <section class="contenedor__section" style="background-color:black ;"> <!-- titulo y foto -->
-          <div> <!-- titulo-->
-            <h1 class="titulo-destacado"><strong> MODELOS DISPONIBLES </strong></h1> 
+          <div style=" padding-top: 5%!important;"> <!-- titulo-->
+            <h1 class="titulo-destacado" ><strong> MODELOS DISPONIBLES </strong></h1> 
            </div> 
             <div class="foto__modelos"> 
                 <img src="imagenes/mamba/LOGO MAMBARecurso 48@3x.png" alt="logotipo--" width="100%">

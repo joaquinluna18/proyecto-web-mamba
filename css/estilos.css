@@ -16,7 +16,13 @@ body{
       height: auto;
       background-color: red;
   }
-
+  .navbar-light .navbar-brand {
+	color: rgb(255 255 255 / 90%);
+}
+.header-nav{
+    padding-right: 75px;
+   
+}
   .header_contendedor{
     background-color: red;
     max-width: 100%;
@@ -28,6 +34,7 @@ body{
     justify-content: space-between;
     align-items: center ;
    }
+ 
 
   .header_marca{
     padding: 0px;
@@ -42,10 +49,10 @@ body{
 	padding-left: 0;
 	margin-bottom: 0;
 	list-style: none;
-    gap: 7.5rem;
+    gap: 2.5rem;
 
    }
-   
+ 
 
   .nav_lista{
     display: flex;
@@ -73,9 +80,11 @@ body{
 /*main*/
 /*inde*/
    .contenedor_main{
-       display: flex;
-       width: 100%;
-       padding: 7%;
+    display: flex;
+	width: 100%;
+	padding: 7%;
+	padding-top: 2%;
+	padding-bottom: 2%
     }
 
     .img_main1{
@@ -88,6 +97,7 @@ body{
     }
         /*extend*/
         .titulo-destacado, .titulo {
+            padding-top: 13%;
             color: white;
             font-style: normal;
             /*de costado*/
@@ -139,7 +149,7 @@ body{
     max-width: 100%;
     margin: 0 auto;
     height: 100%;
-    padding: 10%;
+    padding: 3%;
 
     display: flex;
     flex-direction:row;
@@ -191,6 +201,7 @@ body{
         justify-content: space-between;
         align-items: center ;
         width: 100%;
+        padding-top: 5%;
 
 
     }
@@ -441,7 +452,12 @@ body{
        
    /*media querys*/
 
-
+@media screen and (min-width: 1024px) {
+    .header-movil{
+        display: none;
+    }
+    
+}
 /*tablet*/
 
 @media screen and (max-width: 1024px) {
@@ -538,9 +554,12 @@ body{
 
 /*movil*/
 @media screen and (max-width: 600px) {
+    .header-nav{
+        display: none;
+    }
     body{
       
-            background-color:white;
+            background-color: white;
         }
     .contenedor_main{
             flex-direction: column;
