@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'ill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* fuente*/
-    background-color: rgb(196, 190, 190);
+    background-color:white
     
     
 }
@@ -80,7 +80,11 @@ body{
 /*main*/
 /*inde*/
    .contenedor_main{
+
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(238%2c 241%2c 245%2c 1)'%3e%3c/rect%3e%3cpath d='M -331.3155538940819%2c59 C -235.32%2c142.6 -43.32%2c447.8 148.68444610591808%2c477 C 340.68%2c506.2 436.68%2c206 628.6844461059181%2c205 C 820.68%2c204 916.68%2c484.8 1108.6844461059181%2c472 C 1300.68%2c459.2 1522.42%2c179.2 1588.6844461059181%2c141 C 1654.95%2c102.8 1469.74%2c253 1440%2c281' stroke='rgba(226%2c 4%2c 4%2c 0.33)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -792.8987192827925%2c345 C -696.9%2c294.2 -504.9%2c70.8 -312.8987192827925%2c91 C -120.9%2c111.2 -24.9%2c415.6 167.1012807172075%2c446 C 359.1%2c476.4 455.1%2c247.2 647.1012807172075%2c243 C 839.1%2c238.8 968.52%2c427.8 1127.1012807172074%2c425 C 1285.68%2c422.2 1377.42%2c268.2 1440%2c229' stroke='rgba(226%2c 4%2c 4%2c 0.33)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -495.61509982152467%2c196 C -399.62%2c256.2 -207.62%2c513 -15.615099821524652%2c497 C 176.38%2c481 272.38%2c148.8 464.38490017847533%2c116 C 656.38%2c83.2 752.38%2c308.8 944.3849001784754%2c333 C 1136.38%2c357.2 1325.26%2c207.8 1424.3849001784754%2c237 C 1523.51%2c266.2 1436.88%2c430.6 1440%2c479' stroke='rgba(226%2c 4%2c 4%2c 0.33)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -327.81541520861987%2c484 C -231.82%2c425.2 -39.82%2c204.6 152.18458479138013%2c190 C 344.18%2c175.4 440.18%2c425 632.1845847913801%2c411 C 824.18%2c397 920.18%2c130.8 1112.18458479138%2c120 C 1304.18%2c109.2 1526.62%2c329.8 1592.18458479138%2c357 C 1657.75%2c384.2 1470.44%2c276.2 1440%2c256' stroke='rgba(226%2c 4%2c 4%2c 0.33)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
     display: flex;
+
 	width: 100%;
 	padding: 7%;
 	padding-top: 2%;
@@ -95,6 +99,17 @@ body{
         
         
     }
+
+    .contenedor_marcamain{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M -901.3042917898936%2c329 C -805.3%2c277 -613.3%2c66.2 -421.3042917898935%2c69 C -229.3%2c71.8 -133.3%2c305 58.69570821010649%2c343 C 250.7%2c381 346.7%2c241 538.6957082101064%2c259 C 730.7%2c277 838.43%2c458.4 1018.6957082101064%2c433 C 1198.96%2c407.6 1355.74%2c192.2 1440%2c132' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -175.32129733680324%2c292 C -79.32%2c265.6 112.68%2c124 304.67870266319676%2c160 C 496.68%2c196 592.68%2c458.2 784.6787026631968%2c472 C 976.68%2c485.8 1072.68%2c227 1264.6787026631969%2c229 C 1456.68%2c231 1709.61%2c489.2 1744.6787026631969%2c482 C 1779.74%2c474.8 1500.94%2c250.8 1440%2c193' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -125.15640211710985%2c497 C -29.16%2c418.8 162.84%2c114.6 354.84359788289015%2c106 C 546.84%2c97.4 642.84%2c425.2 834.8435978828902%2c454 C 1026.84%2c482.8 1122.84%2c245 1314.8435978828902%2c250 C 1506.84%2c255 1769.81%2c475 1794.8435978828902%2c479 C 1819.87%2c483 1510.97%2c311.8 1440%2c270' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -353.6196259158336%2c453 C -257.62%2c385.2 -65.62%2c144.2 126.38037408416643%2c114 C 318.38%2c83.8 414.38%2c284.6 606.3803740841664%2c302 C 798.38%2c319.4 894.38%2c204.8 1086.3803740841665%2c201 C 1278.38%2c197.2 1495.66%2c272.6 1566.3803740841665%2c283 C 1637.1%2c293.4 1465.28%2c259 1440%2c253' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        display: flex;
+
+        width: 100%;
+        padding: 7%;
+        padding-top: 2%;
+        padding-bottom: 2%
+    }
+    
         /*extend*/
         .titulo-destacado, .titulo {
             padding-top: 13%;
@@ -119,16 +134,48 @@ body{
             padding: 10px;
             text-decoration: underline;
           }
-
+          .titulo-index{
+            font-size: 25px;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            background-color: none;
+            color: black;
+          }
+          .titulo-indexblack{
+            font-size: 25px;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            background-color: none;
+            color:white;
+          }
     .caja{
     
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
         background-origin: border-box;
-        background-color: black;
-        
+    
+        color: black;
+        font-size: 20px;
+        line-height: 1.50;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        font-style: normal;
+    
+    }
 
+    .caja_indexblack{
+    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        background-origin: border-box;
+    
         color: white;
         font-size: 20px;
         line-height: 1.50;
@@ -237,6 +284,39 @@ body{
 
         color: white; 
     }
+    .tarjeta_prueba{
+        height: 500px;
+        background-color: black;
+        border-radius: 17px;
+        text-align: left;
+        width: 85%;
+        position: relative;
+        color: white;
+        padding: 7%;
+
+     }
+     .tarjeta__tituloprueba{
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-weight: bold;
+
+     }
+     .tarjeta_precio{
+        font-size: 30px;
+        color: orange;
+        margin: 1rem 0;
+        text-align: right;
+        text-decoration: none;
+        
+
+     }
+     .tarjeta_texto{
+         color: grey;
+         font-size: 15px;
+         text-align: left;
+     }
 
 
     .tarjeta__imagen{
@@ -285,22 +365,16 @@ body{
         display: grid;
         width: auto;
         height: auto;
-        grid-template-columns: 420px  420px 420px;
-        grid-template-rows: 700px 700px ;
-        justify-items: stretch; 
-        align-items: stretch;
-
+        grid-template-columns: 420px 420px 420px;
+        grid-template-rows: 550px 550px;
+        justify-items: center;
+        align-items: center;
         grid-column-gap: 10px;
-        grid-row-gap: 20px;
-
-        padding: 50px;
-        padding-left: 100px;
-        padding-right: 180px;
-        
-      
-
-
+        padding: 3%;
+       
     }
+
+   
 
 
 /*INFO-PERMUTAS*/
@@ -418,6 +492,11 @@ body{
     margin: 130px;
  
            
+}
+.btn-primary {
+	color: #fff;
+	background-color: red;
+	border-color: white;
 }
 
    .contacto__fieldset{
@@ -564,6 +643,10 @@ body{
     .contenedor_main{
             flex-direction: column;
         }  
+
+        .contenedor_marcamain{
+            flex-direction: column;  
+        }
         .header_contendedor{
             flex-direction: column;
         }
@@ -617,7 +700,7 @@ body{
     }
     .caja{
         background-image: none;
-        background-color: grey;
+        
         color: black;
         
     }
@@ -641,9 +724,9 @@ body{
         width: auto;
         height: auto;
         grid-template-columns: 350px ;
-        grid-template-rows: 700px 700px 700px 700px 700px 700px;
-        justify-items: stretch; 
-        align-items: stretch;
+        grid-template-rows: 500px 500px 500px 500px 500px 500px;
+        justify-items: center; 
+        align-items: center;
     
         grid-column-gap: 10px;
         grid-row-gap: 20px;
