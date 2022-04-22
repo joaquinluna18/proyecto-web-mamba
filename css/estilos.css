@@ -101,10 +101,12 @@ body{
     }
 
     .img_main1{
+        display: flex;
         padding: 20px;
-        margin: 10px;
-        width: 100%;
+        margin: 30px;
+        width: 80%;
         height: 90%;
+        justify-content: center;
         
         
     }
@@ -434,42 +436,68 @@ body{
         justify-content: center;
 
     }
+    .grid_permutas{
+        display: grid;
+        grid-template-columns: 50% 50%;
+	    grid-template-rows: 100%;  
+        padding: 3%;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 10px;
+
+    }
+    
 
    
 
 
 /*INFO-PERMUTAS*/
+
+
+   .imagen_permuta {
+    padding: 1%;
+	margin: 0;
+	width: 100%;
+	height: 270px;
+
+   }
+   .imagen_financiacion{
+    padding: 1%;
+	margin: 0;
+	width: 100%;
+	height: 435px;
+
+   }
+   .article{
+       padding: 2%;
+   }
     .article__titulo{
         color: black;
-        font-style: normal;
-        font-size: 20px;
-        text-align: left;
-        line-height: 2.00;
-        background-color: rgb(192, 180, 180);
-        margin: 10px;
-        margin-left: 150px;
-        margin-right: 150px;
-        padding: 10px;
+	font-style: normal;
+	font-size: 40px;
+	text-align: left;
+	line-height: 2.00;
+	background-color: white;
+
+	padding: 20px;
 
         
 
     }
 
     .article__texto{
-        color: black;
+        color: white;
         font-style: normal;
-        font-size: 15px;
+        font-size: 20px;
         text-align: left;
         line-height: 2.00;
-        background-color: rgb(192, 180, 180);
-        margin: 40px;
-        margin-left: 200px;
-        margin-right: 200px;
-        padding: 10px;
-       
+        background-color: black;
+        
+        padding: 20px;
         
 
     }
+    
 
     .div__whatsapp{
         justify-content: center;
@@ -509,6 +537,8 @@ body{
     }
     
 /*sobre nosotros*/
+
+   
 
     .div__texto{
         color: black;
@@ -595,36 +625,47 @@ body{
         .contenedor_medalla {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M -901.3042917898936%2c329 C -805.3%2c277 -613.3%2c66.2 -421.3042917898935%2c69 C -229.3%2c71.8 -133.3%2c305 58.69570821010649%2c343 C 250.7%2c381 346.7%2c241 538.6957082101064%2c259 C 730.7%2c277 838.43%2c458.4 1018.6957082101064%2c433 C 1198.96%2c407.6 1355.74%2c192.2 1440%2c132' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -175.32129733680324%2c292 C -79.32%2c265.6 112.68%2c124 304.67870266319676%2c160 C 496.68%2c196 592.68%2c458.2 784.6787026631968%2c472 C 976.68%2c485.8 1072.68%2c227 1264.6787026631969%2c229 C 1456.68%2c231 1709.61%2c489.2 1744.6787026631969%2c482 C 1779.74%2c474.8 1500.94%2c250.8 1440%2c193' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -125.15640211710985%2c497 C -29.16%2c418.8 162.84%2c114.6 354.84359788289015%2c106 C 546.84%2c97.4 642.84%2c425.2 834.8435978828902%2c454 C 1026.84%2c482.8 1122.84%2c245 1314.8435978828902%2c250 C 1506.84%2c255 1769.81%2c475 1794.8435978828902%2c479 C 1819.87%2c483 1510.97%2c311.8 1440%2c270' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -353.6196259158336%2c453 C -257.62%2c385.2 -65.62%2c144.2 126.38037408416643%2c114 C 318.38%2c83.8 414.38%2c284.6 606.3803740841664%2c302 C 798.38%2c319.4 894.38%2c204.8 1086.3803740841665%2c201 C 1278.38%2c197.2 1495.66%2c272.6 1566.3803740841665%2c283 C 1637.1%2c293.4 1465.28%2c259 1440%2c253' stroke='rgba(234%2c 5%2c 5%2c 0.75)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
             height: 450px;
-            display: flex;
-            width: 100%;
-            padding: 7%;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            flex-wrap: wrap;
-            align-content: center;
-            align-items: center;
-            justify-content: space-around;}
+	display: flex;
+	width: 100%;
+	padding: 7%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	justify-content: space-around;
+}
+   .lista_valores{
+       color: white;
+   }
+   .valores{
+       font-size: 25px;
+       padding: 10%;
+
+   }
 
 
 
 
 /*contacto*/
 
+
    .contacto__div{
     background-color: black;
-    border-radius: 9px ;
-    height:100%;
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center ;
-    width: 80%;
-    padding: 5rem ;
-    margin: 130px;
- 
-           
+	border-radius: 9px;
+	height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	padding: 5rem;
+	margin-top: 2%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+	margin-left: 10%;  
 }
 .btn-primary {
 	color: #fff;
@@ -906,16 +947,18 @@ body{
         }
         .contenedor_medalla{
             flex-direction: column;
-        	display: flex;
-	       flex-wrap: nowrap;
-         	align-content: flex-start;
-         	justify-content: center;
-        	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	justify-content: center;
+	align-items: center;
+	height: auto;
         }
         .img_valores {
             padding: 12px;
             margin: 18px;
             width: 50%;
+            height: 100%;
         }
         .contenedor_valores {
             background-color: black;
@@ -943,7 +986,39 @@ body{
             padding-bottom: 0;
             flex-wrap: wrap;
         }
-
+        .contacto__div{
+            background-color: black;
+            border-radius: 9px;
+            height: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            padding: 1rem;
+            margin-top: 2%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            margin-left: 10%;  
+        }
+        .grid_permutas {
+            display: flex;
+            grid-template-columns: 50%;
+            grid-template-rows: 100%;
+            padding: 3%;
+            justify-items: center;
+            align-items: center;
+            grid-column-gap: 10px;
+            flex-direction: column;
+        }
+        .imagen_permuta {
+            padding: 1%;
+            margin: 0;
+            width: 100%;
+            height: auto;
+        }
+       
 
 
     

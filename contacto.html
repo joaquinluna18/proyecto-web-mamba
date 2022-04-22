@@ -89,43 +89,57 @@
     <main>
         <div> 
             <h1 class="titulo-destacado" >CONTACTANOS </h1>
-
-        <div> <!-- tarjerta prueba bootstrap-->
-            
-            <div class="card text-center" style="background-color: black;
-            color: white;
-            padding: 2%;
-            margin: 5%;">
-                <div class="card-header">
-                ESCRIBINOS
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">ESCRIBI TU CONSULTA</h5>
-                  <p class="card-text">Respondemos tu consulta las 24hs</p>
-                  <a href="https://web.whatsapp.com/" class="btn btn-primary" style="	background-color: green;
-                  border-color: white;">Whastsapp</a>
-                </div>
-                <form action="" method="" enctype="">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Redacta tu consulta..."></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary"> ENVIAR </button>
-                  </div>
-                </form>    
-                <div class="card-footer text-muted" style="	color: #ffffff!important;">
-                  MAMBA CARS SELECT
-                </div>
-              </div>
-            
-
         </div>
-        
+
+        <div class="contacto__div"> <!-- tarjerta prueba bootstrap-->
+          <form class="row g-3" action="" method="">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="Ej: Juan" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="Ej: Perez" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Provincia</label>
+              <select class="form-select" id="validationDefault04" required >
+                <option>Buenos Aires</option>
+                <option>Chubut</option>
+                <option>Rio Negro</option>
+                <option>Mendoza</option>
+                <option>Rosario</option>
+                <option>Cordoba</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">Email</label>
+              <input type="email" class="form-control" id="validationDefault03" required placeholder="Ej: nombre@ejemplo.com" value="">
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationDefault03" required placeholder="Ej: Mar del Plata">
+            </div>
+            
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribi tu consulta"></textarea>
+            </div>
+           
+            <div class="col-12" style="display: flex; justify-content: flex-end;">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                 Acepto terminos y condiciones
+                </label>
+              </div>
+            </div>
+            <div class="col-12" style="display: flex; justify-content: flex-end;">
+              <button class="btn btn-primary" type="submit">Enviar Formulario</button>
+            </div>
+          </form>
+          </div>
+          
 
     </main>
 
