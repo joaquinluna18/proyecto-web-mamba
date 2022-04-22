@@ -94,61 +94,76 @@
 
         <div class="grid_prueba">
 
-          <div class="contenedor_dropdowns">
-            <div class="dropdown" > 
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Año
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">2011 </a></li>
-                <li><a class="dropdown-item" href="#">2016</a></li>
-                <li><a class="dropdown-item" href="#">2018</a></li>
-              </ul>
+            <div class="contenedor_dropdowns">
+              <div class="dropdown" > 
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Año
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="año2011.html">2011 </a></li>
+                  <li><a class="dropdown-item" href="año2016.html">2016</a></li>
+                  <li><a class="dropdown-item" href="año2018.html">2018</a></li>
+                </ul>
+              </div>
+              
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Marca
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="audi.html">Audi</a></li>
+                  <li><a class="dropdown-item" href="chevrolet.html">Chevrolet</a></li>
+                  <li><a class="dropdown-item" href="ford.html">Ford</a></li>
+                  <li><a class="dropdown-item" href="volkswagen.html">Volkswagen</a></li>
+                  <li><a class="dropdown-item" href="renault.html">Renault</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                 Transmision
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#"> Automatica</a></li>
+                  <li><a class="dropdown-item" href="#">Manual</a></li>
+                  
+                </ul>
             </div>
             
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Marca
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="audi.html">Audi</a></li>
-                <li><a class="dropdown-item" href="chevrolet.html">Chevrolet</a></li>
-                <li><a class="dropdown-item" href="ford.html">Ford</a></li>
-                <li><a class="dropdown-item" href="volkswagen.html">Volkswagen</a></li>
-                <li><a class="dropdown-item" href="renault.html">Renault</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-               Transmision
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#"> Automatica</a></li>
-                <li><a class="dropdown-item" href="#">Manual</a></li>
-                
-              </ul>
-          </div>
-          
-         
- 
-
-        </div>
-        <div class="dropdown"><!--dropdown-->
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Ordenar por precio
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="menor-a-mayor.html">Precio menor a mayor</a></li>
-            <li><a class="dropdown-item" href="mayor-a-menor.html"> Precio mayor a menor</a></li>
            
-          </ul>
-        </div>
-        </div>
+   
+  
+          </div>
+          <div class="dropdown"><!--dropdown-->
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Ordenar por precio
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="menor-a-mayor.html">Precio menor a mayor</a></li>
+              <li><a class="dropdown-item" href="mayor-a-menor.html"> Precio mayor a menor</a></li>
+             
+            </ul>
+          </div>
+          </div>
         
 
         <section class="grid"> <!-- modelos disponibles a la venta con foto del mismo-->
+              <div class="tarjeta_prueba" ><!--FIESTA-->
+                <img src="imagenes/mamba/FEED INICIOMesa de trabajo 9 copia 3.jpg" class="card-img-top" alt="fiesta">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h2 class="tarjeta__tituloprueba"> FORD FIESTA</h2> 
+                    <h5> Ambiente plus</h5>
+                    <p class="tarjeta_precio">
+                      $1.050.000
+                    </p>
+                    <p class="tarjeta_texto">
+                      88.000kms  2011 Manual
+                    </p>
 
-            
+                  </p>
+                </div>
+              </div>
+              
               <div class="tarjeta_prueba" ><!--AUDI TT4-->
                 <img src="imagenes/mamba/audi tt4.jpg" class="card-img-top" alt="AUDI">
                 <div class="card-body">
@@ -166,7 +181,6 @@
                 </div>
               </div>
               
-
 
          </section>
 
