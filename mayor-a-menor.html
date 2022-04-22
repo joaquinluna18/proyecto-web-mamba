@@ -92,57 +92,7 @@
             
         </section>
 
-        <div class="grid_prueba">
-
-          <div class="contenedor_dropdowns">
-            <div class="dropdown" > 
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Año
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">2011 </a></li>
-                <li><a class="dropdown-item" href="#">2016</a></li>
-                <li><a class="dropdown-item" href="#">2018</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Kms
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Menos de 60.000Kms </a></li>
-                <li><a class="dropdown-item" href="#">De 60.000 a 85.000Kms</a></li>
-                <li><a class="dropdown-item" href="#">Mas de 85.000Kms </a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Marca
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Audi</a></li>
-                <li><a class="dropdown-item" href="#">Chevrolet</a></li>
-                <li><a class="dropdown-item" href="#">Ford</a></li>
-                <li><a class="dropdown-item" href="#">Volkswagen</a></li>
-                <li><a class="dropdown-item" href="#">Renault</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-               Transmision
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#"> Automatica</a></li>
-                <li><a class="dropdown-item" href="#">Manual</a></li>
-                
-              </ul>
-          </div>
-          
-         
- 
-
-        </div>
-        <div class="dropdown"><!--dropdown-->
+        <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             Ordenar por precio
           </button>
@@ -152,11 +102,24 @@
            
           </ul>
         </div>
-        </div>
-        
 
         <section class="grid"> <!-- modelos disponibles a la venta con foto del mismo-->
+            <div class="tarjeta_prueba" ><!--AUDI TT4-->
+                <img src="imagenes/mamba/audi tt4.jpg" class="card-img-top" alt="AUDI">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h2 class="tarjeta__tituloprueba"> AUDI TT4 </h2> <!-- modelo 2-->
+                    <h5> 2.0T QUATTRO</h5>
+                    <p class="tarjeta_precio">
+                      U$D 35.000
+                    </p>
+                    <p class="tarjeta_texto">
+                      97.000kms  2011 Automatica 7ma
+                    </p>
 
+                  </p>
+                </div>
+              </div>
               <div class="tarjeta_prueba" > <!--TRACKER-->
                 <img src="imagenes/mamba/FEED INICIOMesa de trabajo 6 copia 2.jpg" class="card-img-top" alt="tracker">
                 <div class="card-body">
@@ -173,22 +136,6 @@
                   </p>
                 </div>
               </div>
-              <div class="tarjeta_prueba" ><!--FIESTA-->
-                <img src="imagenes/mamba/FEED INICIOMesa de trabajo 9 copia 3.jpg" class="card-img-top" alt="fiesta">
-                <div class="card-body">
-                  <p class="card-text">
-                    <h2 class="tarjeta__tituloprueba"> FORD FIESTA</h2> 
-                    <h5> Ambiente plus</h5>
-                    <p class="tarjeta_precio">
-                      $1.050.000
-                    </p>
-                    <p class="tarjeta_texto">
-                      88.000kms  2011 Manual
-                    </p>
-
-                  </p>
-                </div>
-              </div>
               <div class="tarjeta_prueba" ><!--SAVEIRO-->
                 <img src="imagenes/mamba/SAVEIRO 1.jpg" class="card-img-top" alt="SAVEIRO">
                 <div class="card-body">
@@ -200,22 +147,6 @@
                     </p>
                     <p class="tarjeta_texto">
                       48.000kms  2018 Manual
-                    </p>
-
-                  </p>
-                </div>
-              </div>
-              <div class="tarjeta_prueba" ><!--AUDI TT4-->
-                <img src="imagenes/mamba/audi tt4.jpg" class="card-img-top" alt="AUDI">
-                <div class="card-body">
-                  <p class="card-text">
-                    <h2 class="tarjeta__tituloprueba"> AUDI TT4 </h2> <!-- modelo 2-->
-                    <h5> 2.0T QUATTRO</h5>
-                    <p class="tarjeta_precio">
-                      U$D 35.000
-                    </p>
-                    <p class="tarjeta_texto">
-                      97.000kms  2011 Automatica 7ma
                     </p>
 
                   </p>
@@ -253,8 +184,23 @@
                   </p>
                 </div>
               </div>
+              <div class="tarjeta_prueba" ><!--FIESTA-->
+                <img src="imagenes/mamba/FEED INICIOMesa de trabajo 9 copia 3.jpg" class="card-img-top" alt="fiesta">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h2 class="tarjeta__tituloprueba"> FORD FIESTA</h2> 
+                    <h5> Ambiente plus</h5>
+                    <p class="tarjeta_precio">
+                      $1.050.000
+                    </p>
+                    <p class="tarjeta_texto">
+                      88.000kms  2011 Manual
+                    </p>
 
-
+                  </p>
+                </div>
+              </div>
+  
          </section>
 
     </main>
